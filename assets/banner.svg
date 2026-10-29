@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Agent Harness · Claude Code">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D4561C"/><stop offset="1" stop-color="#B23E0D"/></linearGradient>
+<pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity="0.10"/></pattern>
+<clipPath id="r"><rect width="1200" height="340" rx="20"/></clipPath>
+<clipPath id="shot"><rect x="640" y="56" width="500" height="313" rx="12"/></clipPath>
+</defs>
+<style>
+.lab{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;font-size:14px;fill:#FFE7D9}
+.t{font-family:Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif;font-size:58px;font-weight:800;fill:#fff;letter-spacing:-1.5px}
+.s{font-family:Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif;font-size:22px;font-weight:700;fill:#fff}
+.g{font-family:Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif;font-size:17px;fill:#FFE7D9}
+.k{font-family:Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif;font-weight:800;fill:#C4460F}
+.m{font-family:Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif;font-size:15px;font-weight:600;fill:#7A4A33}
+.mono{font-family:'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;font-size:14px}
+.float{animation:float 6s ease-in-out infinite}
+.pop{animation:pop 4.5s ease-in-out infinite}
+.in{animation:in 1s ease-out both}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes pop{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.float,.pop,.in{animation:none}}
+</style>
+<g clip-path="url(#r)">
+<rect width="1200" height="340" fill="url(#bg)"/>
+<rect width="1200" height="340" fill="url(#dots)"/>
+<circle cx="900" cy="230" r="280" fill="#fff" fill-opacity="0.08"/>
+<g class="float"><rect x="680" y="46" width="440" height="250" rx="16" fill="#211814"/><circle cx="704" cy="68" r="5" fill="#FF5F57"/><circle cx="722" cy="68" r="5" fill="#FEBC2E"/><circle cx="740" cy="68" r="5" fill="#28C840"/><text class="mono" x="708" y="112"><tspan fill="#E8622A">⏺</tspan> <tspan fill="#F3F4F6">Agent</tspan><tspan fill="#9AA1AE">(researcher)</tspan></text><text class="mono" x="1000" y="112" fill="#86EFAC" style="font-weight:700">✓</text><text class="mono" x="708" y="146"><tspan fill="#E8622A">⏺</tspan> <tspan fill="#F3F4F6">Skill</tspan><tspan fill="#9AA1AE">(ontology)</tspan></text><text class="mono" x="1000" y="146" fill="#86EFAC" style="font-weight:700">✓</text><text class="mono" x="708" y="180"><tspan fill="#E8622A">⏺</tspan> <tspan fill="#F3F4F6">Agent</tspan><tspan fill="#9AA1AE">(drafter ×3)</tspan></text><text class="mono" x="1000" y="180" fill="#86EFAC" style="font-weight:700">✓</text><text class="mono" x="708" y="214"><tspan fill="#E8622A">⏺</tspan> <tspan fill="#F3F4F6">Agent</tspan><tspan fill="#9AA1AE">(reviewer)</tspan></text><text class="mono" x="1000" y="214" fill="#86EFAC" style="font-weight:700">✓</text><text class="mono" x="708" y="248"><tspan fill="#E8622A">⏺</tspan> <tspan fill="#F3F4F6">Hook</tspan><tspan fill="#9AA1AE">(bans · audit)</tspan></text><text class="mono" x="1000" y="248" fill="#86EFAC" style="font-weight:700">FAIL 0</text></g><g class="pop" style="animation-delay:-0s"><rect x="600" y="250" width="105" height="34" rx="17" fill="#FFF4EC"/><circle cx="615" cy="267" r="4" fill="#E8622A"/><text class="k" x="625" y="273" style="font-size:15px">스킬 70</text></g><g class="pop" style="animation-delay:-2s"><rect x="1010" y="270" width="160" height="34" rx="17" fill="#FFF4EC"/><circle cx="1025" cy="287" r="4" fill="#E8622A"/><text class="k" x="1035" y="293" style="font-size:15px">서브에이전트 15+</text></g><g class="pop" style="animation-delay:-3.5s"><rect x="1000" y="16" width="90" height="34" rx="17" fill="#FFF4EC"/><circle cx="1015" cy="33" r="4" fill="#E8622A"/><text class="k" x="1025" y="39" style="font-size:15px">영역 5</text></g>
+<g class="in">
+<g fill="#fff"><circle cx="72" cy="64" r="5"/><circle cx="86" cy="56" r="5"/><circle cx="86" cy="72" r="5"/><circle cx="100" cy="64" r="5"/></g>
+<text class="lab" x="118" y="69">HARNESS · CLAUDE CODE</text>
+<text class="t" x="64" y="152">Agent Harness</text>
+<text class="s" x="66" y="192">1인 회사를 돌리는 Claude Code 하네스</text>
+<line x1="66" y1="216" x2="500" y2="216" stroke="#fff" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="2 6"/>
+<text class="g" x="66" y="252">사업계획서 · 클라이언트 웹 · SaaS를 혼자 납품합니다.</text>
+<text class="g" x="66" y="280">반복된 실수는 말이 아니라 훅으로 막습니다.</text>
+</g>
+</g>
+</svg>

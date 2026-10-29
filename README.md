@@ -1,4 +1,10 @@
-# Agent Harness · Running a one-person company on Claude Code
+<p align="center">
+  <img src="assets/banner.svg" alt="agent-harness" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-all%20in-E8622A?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"/> <img src="https://img.shields.io/badge/skills-70-C4460F?style=flat-square" alt="skills"/> <img src="https://img.shields.io/badge/subagents-15%2B-D4561C?style=flat-square" alt="subagents"/> <img src="https://img.shields.io/badge/%EC%98%81%EC%97%AD-5-B23E0D?style=flat-square" alt="영역"/> <img src="https://img.shields.io/badge/status-daily%20use-1F1A17?style=flat-square" alt="status"/>
+</p>
 
 > A multi-agent harness that lets one founder ship grant proposals, client websites and SaaS products. 70 skills, 15+ subagents, and hooks that block the mistakes I kept repeating.
 >
@@ -15,6 +21,7 @@
 ## 2. 구조
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFF4EC','primaryBorderColor':'#E8622A','primaryTextColor':'#1F1A17','lineColor':'#E8622A','secondaryColor':'#FDE3D3','tertiaryColor':'#FFF9F5','clusterBkg':'#FFF9F5','clusterBorder':'#F0B79A','fontFamily':'Pretendard, sans-serif'}}}%%
 flowchart TB
   subgraph core[core · 공용]
     S[스키마 · 원장 3종<br/>requirements · decisions · deliverables]
@@ -65,4 +72,4 @@ flowchart TB
 
 ---
 
-<sub>Woojin Nam · <a href="https://github.com/TreeJin99">@TreeJin99</a> · <a href="https://jigeum.info">jigeum.info</a></sub>
+<p align="center"><sub><a href="https://github.com/TreeJin99">← 남우진 프로필</a> · <a href="https://jigeum.info">jigeum.info</a></sub></p>
