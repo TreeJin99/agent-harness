@@ -21,18 +21,18 @@
 ## 2. 구조
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFF4EC','primaryBorderColor':'#E8622A','primaryTextColor':'#1F1A17','lineColor':'#E8622A','secondaryColor':'#FDE3D3','tertiaryColor':'#FFF9F5','clusterBkg':'#FFF9F5','clusterBorder':'#F0B79A','fontFamily':'Pretendard, sans-serif'}}}%%
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFF4EC','primaryBorderColor':'#E8622A','primaryTextColor':'#1F1A17','lineColor':'#E8622A'}}}%%
 flowchart TB
   subgraph C[core · 공용]
     S[스키마 · 원장 3종<br/>요구사항 · 결정 · 산출물]
     H[훅 · 검사 스크립트]
   end
   C --> DOC[doc-agent<br/>사업계획서 · 덱]
-  C --> DES[design-agent<br/>BI/CI · 레퍼런스]
+  C --> DES[design-agent<br/>BI·CI · 레퍼런스]
   C --> DEV[dev-agent<br/>온보딩 · 리뷰 · SEO]
   C --> OPS[ops-agent<br/>집행 서류 · 행정]
   C --> MKT[marketing-agent<br/>광고 · 지도 · AI 노출]
-  DEV -->|install.sh| R[(각 코드 레포<br/>web · product · review · marketing 플러그인)]
+  DEV -->|install| R[(각 코드 레포<br/>web · product · review · marketing 플러그인)]
 ```
 
 | 영역 | 스킬 | 대표 산출물 |
